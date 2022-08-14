@@ -1,0 +1,5 @@
+*.DS_Store
+
+JPMC-Task1/node_modules/*/**
+JPMC-Task2/node_modules/*/**
+JPMC-Task3/node_modules/*/**

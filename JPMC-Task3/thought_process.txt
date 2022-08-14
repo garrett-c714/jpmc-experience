@@ -1,0 +1,12 @@
+## Written thought process that the video overview of the task asked for
+
+
+I set the alert thresholds to 1.1 for the upper bound and 0.9 for the lower bound so that the alert 
+would triger at +/- 10% of the historical average. I felt that the initial values provided (1.05 and 0.95)
+were too low and the alert triggered several times in the first minute or so of streaming data before 
+I adjusted the values. 
+
+The main insight a trader would be able to draw from this dashboard is when the stocks being tracked deviate 
+significantly from the historical average. A jump outside the higher or lower alert thresholds might let them
+know that the stock is behaving differently than it has in the past and they can think about adjusting their
+portfolios as necessary.
